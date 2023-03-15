@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commairce Admine</title>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalaze.css" />
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="Font Awesome/all.min.css" />
+    <script src="Font Awesome/all.min.js"></script>
+    <!--Main Fiels-->
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="scripts/app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="image">
+          <img src="imgs/logo.jpg" />
+          <div class="remove"><i class="fa-solid fa-xmark"></i></div>
+        </div>
+        <ul>
+          <li class="act">
+            <a href="#dashboard"
+              ><span class="icon"><i class="fa-solid fa-house"></i></span>
+              <span>Dashboard</span></a
+            >
+          </li>
+          <li>
+            <a href="#dashboard"
+              ><span class="icon"><i class="fa-regular fa-user"></i></span>
+              <span>Customers</span></a
+            >
+          </li>
+          <li>
+            <a href="#dashboard"
+              ><span class="icon"><i class="fa-regular fa-clipboard"></i></span>
+              <span>Orders</span></a
+            >
+          </li>
+          <li>
+            <a href="#dashboard"
+              ><span class="icon"><i class="fa-solid fa-chart-line"></i></span>
+              <span>Analytics</span></a
+            >
+          </li>
+          <li>
+            <a href="#dashboard"
+              ><span class="icon"><i class="fa-regular fa-envelope"></i></span>
+              <span>Messages</span></a
+            >
+          </li>
+          <li>
+            <a href="#dashboard"
+              ><span class="icon"
+                ><i class="fa-brands fa-product-hunt"></i
+              ></span>
+              <span>Prudects</span></a
+            >
+          </li>
+          <li>
+            <a href="#dashboard"
+              ><span class="icon"><i class="fa-solid fa-bug"></i></span>
+              <span>Reports</span></a
+            >
+          </li>
+          <li>
+            <a href="#dashboard"
+              ><span class="icon"><i class="fa-solid fa-gear"></i></span>
+              <span>Settings</span></a
+            >
+          </li>
+        </ul>
+        <div class="log">
+          <span class="icon"
+            ><i class="fa-solid fa-arrow-right-from-bracket"></i
+          ></span>
+          <span>Log Out</span>
+        </div>
+      </aside>
+      <div class="top-cont">
+        <div class="bars"><i class="fa-solid fa-bars"></i></div>
+        <div class="mini-setting">
+          <div class="toggle">
+            
+          </div>
+          <div class="text">
+            <p>Hey <span>Mohammed</span></p>
+            <p>admin</p>
+          </div>
+          <div class="avatar"><img src="imgs/profile.jpg"></div>
+        </div>
+      </div>
+
+<div class="content">
+
+  <div class="main-content">
+    <div class="dasheboard">
+      <div class="info">
+
+        <h1>Dashboard</h1>
+      </div>
+      <div class="content">
+        <div class="card">
+          <div class="info">
+            <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+            <p>Totale score</p>
+            <p class="amount">$25,024</p>
+            <span class="date">Last 24 hours</span>
+          </div>
+          <div class="graph" data-porce="72%">
+            <div class="percent" style="--num:72;">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="info">
+            <div class="icon"><i class="fa-solid fa-chart-simple"></i></i></div>
+            <p>Totale Iconome</p>
+            <p class="amount">$5,024</p>
+            <span class="date">Last 24 hours</span>
+          </div>
+          <div class="graph" data-porce="91%">
+            <div class="percent" style="--num:91;">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="info">
+            <div class="icon"><i class="fa-solid fa-chart-bar"></i></div>
+            <p>Totale Expence</p>
+            <p class="amount">$15,024</p>
+            <span class="date">Last 24 hours</span>
+          </div>
+          <div class="graph" data-porce="14%">
+            <div class="percent" style="--num:14;">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="recent-order">
+      <h1>Recent Order</h1>
+      <div class="table">
+        <table>
+          <thead>
+            <td>Product Name</td>
+            <td>Product Number</td>
+            <td>Payement</td>
+            <td>Statue</td>
+            <td> </td>
+          </thead>
+          <tr class="delevred">
+            <td>Iphone 14 pro max</td>
+            <td>1</td>
+            <td>Refused</td>
+            <td>Delevred</td>
+            <td><a href="#">Detail</a></td>
+          </tr>
+          <tr class="declined">
+            <td>Iphone 14 pro max</td>
+            <td>1</td>
+            <td>Paid</td>
+            <td>Declined</td>
+            <td><a href="#">Detail</a></td>
+          </tr>
+          <tr class="pend">
+            <td>Iphone 14 pro max</td>
+            <td>1</td>
+            <td>Due</td>
+            <td>Pending</td>
+            <td><a href="#">Detail</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+    <div class="other-info">
+      <div class="recent-upd">
+        <h1>Recent Updates</h1>
+        <div class="card">
+          <img src="imgs/img-1.jpg">
+          <p><span>Chrollo</span> receverd his order og night lon GPS<span class="date">2 minutes ago</span></p>
+          
+        </div>
+
+        <div class="card">
+          <img src="imgs/img-2.jpg">
+          <p><span>Ayanokoji</span> receverd his order og night lon GPS<span class="date">2 minutes ago</span></p>
+          
+        </div>
+        <div class="card">
+          <img src="imgs/img-3.jpg">
+          <p><span>Johan</span> receverd his order og night lon GPS<span class="date">2 minutes ago</span></p>
+
+        </div>
+      </div>
+      <div class="analystics">
+        <h1>Sales Analystics</h1>
+        <div class="card">
+          <div class="icon"><i class="fa-solid fa-cart-shopping"></i></div>
+          <p>ONLINE ORDERS <span class="date">Last 24 Hours</span></p>
+          <div class="progres posi">+24%</div>
+          <div class="nbr">3849</div>
+        </div>
+        <div class="card">
+          <div class="icon"><i class="fa-solid fa-basket-shopping"></i></div>
+          <p>OFFLINE ORDERS <span class="date">Last 24 Hours</span></p>
+          <div class="progres nega">-17%</div>
+          <div class="nbr">1100</div>
+        </div>
+        <div class="card">
+          <div class="icon"><i class="fa-solid fa-user"></i></div>
+          <p>NEW COSTUMERS<span class="date">Last 24 Hours</span></p>
+          <div class="progres posi">+18%</div>
+          <div class="nbr">849</div>
+        </div>
+        <div class="add">
+          <div><span class="icon"><i class="fa-solid fa-plus"></i></span> Add Product</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  </body>
+</html>
